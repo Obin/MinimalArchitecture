@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<RootNamespace>MinimalArchitecture.Api</RootNamespace>
+		<AssemblyName>MinimalArchitecture.Api</AssemblyName>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>disabled</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0-rc.1.24452.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MinimalArchitecture.Application\MinimalArchitecture.Application.csproj" />
+	</ItemGroup>
+
+</Project>

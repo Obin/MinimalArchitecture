@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<RootNamespace>MinimalArchitecture.Application</RootNamespace>
+		<AssemblyName>MinimalArchitecture.Application</AssemblyName>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>disabled</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CSharp.OperationResult" Version="0.1.6" />
+		<PackageReference Include="MediatR" Version="12.4.1" />
+	</ItemGroup>
+
+</Project>
